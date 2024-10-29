@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="display" readonly>
+      <div class="counter">
+         <button class="caler" onclick="cleardata()">c</button>
+         <button onclick="inputData('00')">00</button>
+         <button onclick="inputData('%')">%</button>
+         <button onclick="inputData('/')">/</button>
+      </div>
+      <div class="counter">
+         <button onclick="inputData('9')">9</button>
+         <button onclick="inputData('8')">8</button>
+         <button onclick="inputData('7')">7</button>
+         <button onclick="inputData('*')">*</button>
+      </div>
+      <div class="counter">
+        <button onclick="inputData('6')">6</button>
+        <button onclick="inputData('5')">5</button>
+        <button onclick="inputData('4')">4</button>
+        <button onclick="inputData('+')">+</button>
+      </div>
+      <div class="counter">
+        <button onclick="inputData('3')">3</button>
+        <button onclick="inputData('2')">2</button>
+        <button onclick="inputData('1')">1</button>
+        <button onclick="inputData('-')">-</button>
+      </div>
+      <div class="counter">
+        <button onclick="inputData('Acc')">Acc</button>
+        <button onclick="inputData('')"<img src="./download (2).jpeg" style="width: 40px; border-radius: 30px;">.</button>
+        <button onclick="clacuate('0')">0</button>
+        <button onclick="clacuate('=')">=</button>
+      </div>
+    </div>
+    <script src="clcuate.js"></script>
+</body>
+</html>
